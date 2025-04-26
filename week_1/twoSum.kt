@@ -1,6 +1,6 @@
 package week_1
 
-class Solution {
+class TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         for (i in 0 until nums.size) {
             for (j in i + 1 until nums.size) {
@@ -16,7 +16,7 @@ class Solution {
 fun main() {
     val values = intArrayOf(2, 3, 4, 1, 5)
     val target = 6
-    val result = Solution().twoSum(values, target)
+    val result = TwoSum().twoSum(values, target)
 
     println(result.joinToString()) // To print the indices nicely
 }

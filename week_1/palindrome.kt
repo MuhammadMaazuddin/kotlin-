@@ -1,6 +1,6 @@
 package week_1
 
-class Solution1 {
+class Palindrome {
     fun isPalindrome(x: Int): Boolean {
         val num = "$x"
         val numSize = num.length
@@ -17,6 +17,6 @@ class Solution1 {
 }
 fun main() {
     val number = 10
-    val result: Boolean = Solution1().isPalindrome(number)
+    val result: Boolean = Palindrome().isPalindrome(number)
     println(result)
 }
